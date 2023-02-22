@@ -1,16 +1,19 @@
 #player
 x = 7
-player_ico = "0_o"
+barebuh = "*"
+player_ico = "О_0"
 
 
 #map
-fps = 0.6
-first_map = ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-second_map =["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-third_map = ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-fifth_map = ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-sixth_map = ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-seventh_map=["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-eight_map = ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-ninth_map = ["#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#", "#"]
-war_map = ["#", "#", "#", "#", "#", "#", "#", player_ico, "#", "#", "#", "#", "#", "#", "#"]
+fps = 0.3
+back_ground = " "
+first_map = ["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+second_map =["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+third_map = ["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+fourth_map= ["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+fifth_map = ["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+sixth_map = ["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+seventh_map=["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+eight_map = ["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+ninth_map = ["", back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
+war_map = [back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, player_ico, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground, back_ground]
